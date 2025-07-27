@@ -1,10 +1,12 @@
-#include "main"
+#include "main.h"
+
 /**
- * main - Entry point
+ * _isalpha - checks for alphabetic character
+ * @c: the character to check
  *
- * Return: Always 0 (Success)
+ * Return: 1 if letter, 0 otherwise
  */
-int_isalpha(int c)
+int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);

@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
- * main - Entry point
+ * _abs - computes absolute value of an integer
+ * @n: the integer
  *
- * Return: Always 0 (Success)
+ * Return: absolute value
  */
-int_abs(int)
+int _abs(int n)
 {
 	if (n < 0)
 		return (-n);
