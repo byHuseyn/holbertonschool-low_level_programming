@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Succes)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -11,16 +11,17 @@ int main(void)
 	char c_upper;
 
 	for (c = 'a'; c <= 'z'; c++)
-{
-	putchar(c);
-}
+	{
+		putchar(c);
+	}
 
 	for (c_upper = 'A'; c_upper <= 'Z'; c_upper++)
-{
-	putchar(c_upper);
-}
+	{
+		putchar(c_upper);
+	}
 
 	putchar('\n');
 
 	return (0);
-}	
+}
+
