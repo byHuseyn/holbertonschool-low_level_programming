@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _mul - Execute Multiply Operation
+ * mul - Execute Multiply Operation
  * @a: First Integer
  * @b: Second Integer
  *
