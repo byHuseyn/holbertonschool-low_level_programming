@@ -2,6 +2,7 @@
 /**
  * _strchr - Function first occurrence of the character
  * @s: string
+ * @c: searching symbol
  *
  * Return: c
  */
